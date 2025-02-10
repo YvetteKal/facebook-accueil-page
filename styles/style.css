@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf1fa;
+}
+
+img{
+    width: 190px;
+    height:100px;
+    margin-top: 10px;
+}
+#title{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(40, 31, 31);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.formulaire{
+    width: 310px;
+  
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black;
+    
+    /* background: #FAFAFA; */
+    border-radius: 8px;
+    background-color:white; 
+    /* background-color: ; */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Light black shadow 4px 4px → Moves the shadow right and down.
+    10px → Controls blurriness (higher = softer shadow).*/
+    margin-bottom: 20px;
+}
+input{
+    width: 280px;
+    height: 35px;
+    color: #CFCAC6;
+    margin: 10px;
+    border: 1px solid #CFCAC6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    font-size: 17px;
+    font-weight: 200;
+    background-color: #1877f2;
+    margin-bottom: 0;
+}
+
+.message{
+
+    font-size: 10px;
+    color: rgb(40, 31, 31);
+    border: 1px solid #e2c822;
+    background-color: #fff9d7;
+    margin-top: 5px;
+
+}
+
+ a{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 13px;
+}
+
+.info-oublie{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 100%;
+    align-items: center;
+    height:20px;
+
+}
+
+#ou{
+    font-size: 12px;
+    color: #CFCAC6;
+}
+
+hr{
+    width: 40%;
+    border: 0.01px solid #CFCAC6;
+    /* margin-top: 0; */
+}
+
+footer{
+    /* border: 1px solid black; */
+    height: 500px;
+}
+button{
+
+    font-size: 15px;
+    font-weight: 100;
+    background-color: #42b72a;
+    border: 1px solid #CFCAC6;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button a{
+    color: white;
+}
+
